@@ -1,15 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Tutorial Page View Controller-->
+        <scene sceneID="qC4-pl-J9B">
+            <objects>
+                <pageViewController storyboardIdentifier="TutorialPageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Q6Q-jw-a1x" customClass="TutorialPageViewController" customModule="NeedsFinder" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ilb-7U-ja4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-871" y="24"/>
+        </scene>
+        <!--First Tutorial View Controller-->
+        <scene sceneID="vXm-uf-RL5">
+            <objects>
+                <viewController storyboardIdentifier="FirstTutorialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IQF-ek-Zk1" customClass="FirstTutorialViewController" customModule="NeedsFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9a-H5-FJ4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VBT-mE-Ksw">
+                                <rect key="frame" x="16" y="20" width="343" height="273"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Fbw-h8-p2v">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="134"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negative1.png" translatesAutoresizingMaskIntoConstraints="NO" id="dpz-40-XkE">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="134"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negative2.png" translatesAutoresizingMaskIntoConstraints="NO" id="sSd-3l-occ">
+                                                <rect key="frame" x="114.5" y="0.0" width="114" height="134"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negative4.png" translatesAutoresizingMaskIntoConstraints="NO" id="jSy-Cv-wwa">
+                                                <rect key="frame" x="229.5" y="0.0" width="113.5" height="134"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Fbw-h8-p2v" secondAttribute="height" multiplier="343:134" id="8qh-SC-dYq"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="pSd-Ja-GUx">
+                                        <rect key="frame" x="0.0" y="134" width="343" height="139"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negative6.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xaw-FR-vXU">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="139"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negative7.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yvu-4E-aFj">
+                                                <rect key="frame" x="114.5" y="0.0" width="114" height="139"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negative8.png" translatesAutoresizingMaskIntoConstraints="NO" id="4cR-vL-GM8">
+                                                <rect key="frame" x="229.5" y="0.0" width="113.5" height="139"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="4cR-vL-GM8" secondAttribute="height" multiplier="113:139" id="iXR-GM-0ek"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="740" text="モヤモヤした感情は\nあなたの大切にしていること\n「ニーズ」\nが満たされていなときに生じます。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1c-Um-lrG">
+                                <rect key="frame" x="16" y="313" width="343" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="v8S-TM-BBb">
+                                <rect key="frame" x="72.5" y="583" width="230" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAS-So-k2A">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                        <state key="normal" image="backButton.png"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1R-Rm-41U">
+                                        <rect key="frame" x="94" y="14" width="42" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9X-Wt-7bK">
+                                        <rect key="frame" x="166" y="0.0" width="64" height="64"/>
+                                        <state key="normal" image="nextButton.png"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="v8S-TM-BBb" firstAttribute="centerX" secondItem="T9a-H5-FJ4" secondAttribute="centerX" id="037-xM-Sex"/>
+                            <constraint firstItem="w1c-Um-lrG" firstAttribute="leading" secondItem="T9a-H5-FJ4" secondAttribute="leading" constant="16" id="HNi-4O-3on"/>
+                            <constraint firstItem="VBT-mE-Ksw" firstAttribute="leading" secondItem="T9a-H5-FJ4" secondAttribute="leading" constant="16" id="Uip-m0-CGl"/>
+                            <constraint firstAttribute="trailing" secondItem="w1c-Um-lrG" secondAttribute="trailing" constant="16" id="dsO-z2-qSP"/>
+                            <constraint firstAttribute="trailing" secondItem="VBT-mE-Ksw" secondAttribute="trailing" constant="16" id="mSD-36-b3w"/>
+                            <constraint firstAttribute="bottom" secondItem="v8S-TM-BBb" secondAttribute="bottom" constant="20" id="pSS-9g-qz8"/>
+                            <constraint firstItem="VBT-mE-Ksw" firstAttribute="top" secondItem="T9a-H5-FJ4" secondAttribute="top" constant="20" id="vLc-G6-bmh"/>
+                            <constraint firstItem="w1c-Um-lrG" firstAttribute="top" secondItem="VBT-mE-Ksw" secondAttribute="bottom" constant="20" id="zqy-No-LQi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="INk-PL-y2B"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="UAS-So-k2A" id="afo-TX-TbS"/>
+                        <outlet property="textLabel" destination="w1c-Um-lrG" id="OHD-oC-QSf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Qr-eO-E1v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1599.2" y="689.5052473763119"/>
+        </scene>
+        <!--Second Tutorial View Controller-->
+        <scene sceneID="61I-d2-hU3">
+            <objects>
+                <viewController id="XSY-3R-aUN" customClass="SecondTutorialViewController" customModule="NeedsFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOC-EK-HPn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="UOs-TS-m3O">
+                                <rect key="frame" x="72" y="583" width="233.5" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkY-8C-OO8">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                        <state key="normal" image="backButton.png"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mg-ds-F66">
+                                        <rect key="frame" x="94" y="14" width="45.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="589-XP-sre">
+                                        <rect key="frame" x="169.5" y="0.0" width="64" height="64"/>
+                                        <state key="normal" image="nextButton.png"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scold.png" translatesAutoresizingMaskIntoConstraints="NO" id="8p2-p5-WGp">
+                                <rect key="frame" x="16" y="20" width="343" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KJV-AR-QIt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lr4-J8-Tce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-900" y="689.5052473763119"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NeedsFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,4 +170,15 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="backButton.png" width="64" height="64"/>
+        <image name="negative1.png" width="134" height="134"/>
+        <image name="negative2.png" width="130" height="131"/>
+        <image name="negative4.png" width="134" height="132"/>
+        <image name="negative6.png" width="133" height="131"/>
+        <image name="negative7.png" width="137" height="139"/>
+        <image name="negative8.png" width="133" height="136"/>
+        <image name="nextButton.png" width="64" height="64"/>
+        <image name="scold.png" width="640" height="480"/>
+    </resources>
 </document>
