@@ -23,13 +23,13 @@
 		8CBB9CCE2056081B00A60410 /* negative5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9CC62056081600A60410 /* negative5.png */; };
 		8CBB9CCF2056081B00A60410 /* negative2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9CC72056081700A60410 /* negative2.png */; };
 		8CBB9CD02056081B00A60410 /* negative4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9CC82056081A00A60410 /* negative4.png */; };
-		8CBB9CD420569C6000A60410 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9CD320569C6000A60410 /* nextButton.png */; };
 		8CBB9CD620574EE900A60410 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9CD520574EE900A60410 /* backButton.png */; };
 		8CBB9CD82057EEEA00A60410 /* scold.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9CD72057EEEA00A60410 /* scold.png */; };
 		8CBB9CDA2057EF2E00A60410 /* SecondTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9CD92057EF2E00A60410 /* SecondTutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C6848A4205F288A0028D778 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
 		8CBB9CA220555A1700A60410 /* NeedsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBB9CA520555A1700A60410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBB9CA720555A1700A60410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,6 @@
 		8CBB9CC62056081600A60410 /* negative5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negative5.png; sourceTree = "<group>"; };
 		8CBB9CC72056081700A60410 /* negative2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negative2.png; sourceTree = "<group>"; };
 		8CBB9CC82056081A00A60410 /* negative4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negative4.png; sourceTree = "<group>"; };
-		8CBB9CD320569C6000A60410 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextButton.png; path = ../../../../Pictures/nextButton.png; sourceTree = "<group>"; };
 		8CBB9CD520574EE900A60410 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		8CBB9CD72057EEEA00A60410 /* scold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scold.png; sourceTree = "<group>"; };
 		8CBB9CD92057EF2E00A60410 /* SecondTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTutorialViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C6848A3205F28780028D778 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB9CBB2055F3BB00A60410 /* Nebula.otf */,
+				8CBB9CD72057EEEA00A60410 /* scold.png */,
+				8CBB9CD520574EE900A60410 /* backButton.png */,
+				8C6848A4205F288A0028D778 /* nextButton.png */,
+				8CBB9CC32056081500A60410 /* negative1.png */,
+				8CBB9CC72056081700A60410 /* negative2.png */,
+				8CBB9CC52056081600A60410 /* negative3.png */,
+				8CBB9CC82056081A00A60410 /* negative4.png */,
+				8CBB9CC62056081600A60410 /* negative5.png */,
+				8CBB9CC22056081400A60410 /* negative6.png */,
+				8CBB9CC42056081600A60410 /* negative7.png */,
+				8CBB9CC12056081100A60410 /* negative8.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		8CBB9C9920555A1700A60410 = {
 			isa = PBXGroup;
 			children = (
@@ -86,20 +104,9 @@
 			children = (
 				8CBB9CA520555A1700A60410 /* AppDelegate.swift */,
 				8CBB9CA720555A1700A60410 /* ViewController.swift */,
-				8CBB9CBB2055F3BB00A60410 /* Nebula.otf */,
 				8CBB9CA920555A1700A60410 /* Main.storyboard */,
 				8CBB9CD92057EF2E00A60410 /* SecondTutorialViewController.swift */,
-				8CBB9CD72057EEEA00A60410 /* scold.png */,
-				8CBB9CD520574EE900A60410 /* backButton.png */,
-				8CBB9CD320569C6000A60410 /* nextButton.png */,
-				8CBB9CC32056081500A60410 /* negative1.png */,
-				8CBB9CC72056081700A60410 /* negative2.png */,
-				8CBB9CC52056081600A60410 /* negative3.png */,
-				8CBB9CC82056081A00A60410 /* negative4.png */,
-				8CBB9CC62056081600A60410 /* negative5.png */,
-				8CBB9CC22056081400A60410 /* negative6.png */,
-				8CBB9CC42056081600A60410 /* negative7.png */,
-				8CBB9CC12056081100A60410 /* negative8.png */,
+				8C6848A3205F28780028D778 /* Assets */,
 				8CBB9CBF2056021D00A60410 /* FirstTutorialViewController.swift */,
 				8CBB9CBD205601AC00A60410 /* TutorialPageViewController.swift */,
 				8CBB9CAC20555A1700A60410 /* Assets.xcassets */,
@@ -170,7 +177,6 @@
 			files = (
 				8CBB9CBC2055F3BB00A60410 /* Nebula.otf in Resources */,
 				8CBB9CCF2056081B00A60410 /* negative2.png in Resources */,
-				8CBB9CD420569C6000A60410 /* nextButton.png in Resources */,
 				8CBB9CC92056081B00A60410 /* negative8.png in Resources */,
 				8CBB9CD82057EEEA00A60410 /* scold.png in Resources */,
 				8CBB9CCE2056081B00A60410 /* negative5.png in Resources */,
